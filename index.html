@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@700,500,600&f[]=montserrat@400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cadff0d666.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="flex items-center justify-between w-[100%] m-auto text-white py-4 px-[4vw]">
+      <h3 class="logo text-[#130e38]">Martins<span class="logo-span">.</span></h3>
+      <ul class="lg:flex md:flex hidden items-center lg:w-[40%] md:w-[55%] justify-between ">
+        <li><a  href="#works" class="nav-li text-[#130e38]	">Projects</a></li>
+        <li><a href="#about" class="nav-li text-[#130e38]	">About</a></li>
+        <li><a  href="#contact"class="nav-li text-[#130e38]	">Contact</a></li>
+        <button class="nav-button text-black p-3 border border-[#FFD700] bg-[#FFD700] rounded-md">
+          View Resume <i class="fa-solid fa-briefcase fa-bounce ml-2"></i></i>
+        </button>
+      </ul>
+      <i onclick="openMenu()" class="lg:hidden md:hidden fa-solid fa-bars-staggered fa-2xl" style="color: #130e38;"></i>
+      <div class="mobile-nav hidden flex w-[60%] justify-around flex-col items-start h-[40vh] absolute right-[10px] top-[1vh] bg-[#f9f9f9] p-[20px]">
+        <i onclick="closeMenu()" class="fa-solid fa-xmark fa-2xl absolute right-[20px] top-[30px]" style="color: #130e38;"></i>
+        <a  href="#works" class="nav-li text-[#130e38]	">Projects</a>
+        <a href="#about" class="nav-li text-[#130e38]	">About</a>
+        <a  href="#contact"class="nav-li text-[#130e38]	">Contact</a>
+        <a class="nav-button text-black p-3 border border-[#FFD700] bg-[#FFD700] rounded-md">
+          View Resume <i class="fa-solid fa-briefcase fa-bounce ml-2"></i></i>
+        </a>
+        <div class="socials flex  w-[100%]  justify-around">
+          <img class="social" src="./images/linkedin.png"/>
+          <img class="social" src="./images/twitter.png"/>
+          <img class="social" src="./images/github.png"/>
+          <img class="social" src="./images/gmail.png"/>
+          <img class="social" src="./images/instagram.png"/>
+          <img class="social" src="./images/facebook.png"/>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class=" hero flex justify-center items-center h-[70%] lg:mt-[18vh] mt-[6vh] lg:w-[80%] md:w-[80%] w-[85%] m-auto">
+        <div class="w-[fit-content] m-auto text-center pt-[50px]">
+          <h2 class="hidden lg:block md:block lg:text-5xl/[1.5] md:text-5xl/[1.5]  md:text-center lg:text-center text-[#130e38] font-bold mb-3 "><span class="text-[#FFD700]">Hey 😉</span>, it's Martins Adepoju <br/> <span class="bg-[#130e38] px-[10px] text-[#F9f9f9]">Full stack</span> Developer</h2>
+          <h2 class="lg:hidden md:hidden text-[2rem] text-left text-[#130e38] font-bold mb-3 "><span class="text-[#FFD700]">Hello there 😉,</span><br/> it's Martins Adepoju<br/><span class="bg-[#130e38] px-[10px] text-[#F9f9f9]">Full stack</span> Developer</h2>
+          <p class="m-auto text-[#130e38] md:text-center lg:text-center text-left text-sm md:text-base lg:text-lg lg:w-[50%] md:w-[65%] mb-5 ">A seasoned Full stack Developer transforming ideas into stunning digital experiences. Let's create an awesome platform</p>
+         <a href="mailto:martinsadepoju4@gmail.com"> <button class="my-button m-auto w-[100%] lg:w-[50%] md:w-[65%] py-4 border-2 border-[#130e38] " >Hire Me <i class="ml-4 fa-solid fa-arrow-right-long fa-2xl" style="color: #130e38;"></i></button></a>
+        </div>
+      </div>
+    </header>
+    <section class="dark-section bg-[#130e38] w-[100%] md:mt-[59vh] lg:mt-[100vh] mt-[90vh] ">
+      <div id="about" class="about  text-[#f9f9f9] lg:w-[80%] w-[90%] m-auto text-center py-32">
+        <h2 class="lg:text-4xl md:text-4xl text-3xl	mb-[30px] font-bold text-[#FFD700]">Hi, Nice to meet you.</h2>
+        <p class="md:text-lg lg:text-lg lg:mb-[30px] mb-[70px] text-left	 ">Since beginning my journey as a freelance designer over 11 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. </p>
+        <p class="md:text-lg lg:text-lg text-left	 ">Since beginning my journey as a freelance designer over 11 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. </p>
+       
+      </div>
+          <div class="what i do">
+    
+          </div>
+      <div class="skills pb-32 m-auto lg:w-[80%] w-[90%] text-[#f9f9f9] w-[100%]">
+        <div class="">
+    
+        <h3 class="w-[fit-content] text-5xl pb-4 mb-12 font-bold border-b-4 border-[#FFD700]">Skills</h3>
+        <div class="flex justify-between flex-col lg:flex-row md:flex-row ">
+          <div class="dev mb-[100px] md:mb-0 mb-0">
+            <h3 class="text-2xl	font-bold mb-12"><i class="fa-solid fa-gears fa-lg mr-2"></i>DEVELOPMENT</h3> 
+            <div class="skills grid grid-cols-3 gap-8">
+              <div class="skill-box">
+              <img src="./images/html-5.png" class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            HTML5</p>
+                </div>
+            </div>
+             
+              <div class="skill-box">
+              <img src="./images/css-3.png" class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            CSS3</p>
+                </div>
+              </div>
+             
+              <div class="skill-box">
+              <img src="./images/js.png" class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            Javascript</p>
+                </div>
+              </div>
+           
+              <div class="skill-box">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            React</p>
+                </div>
+              </div>
+           
+              <div class="skill-box">
+              <img src="./images/nodejs.png" class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            Node.js</p>
+                </div>
+              </div>
+              <div class="skill-box">
+              <img class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            Tailwind</p>
+                </div>
+              </div>
+           
+              <div class="skill-box">
+              <img src="./images/sass.png" class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            Sass</p>
+                </div>
+              </div>
+         
+              <div class="skill-box">
+              <img src="https://webimages.mongodb.com/_com_assets/cms/kusbgztbbnnh146q8-MongoDBLogo1.png?auto=format%252Ccompress" class="skillbox-initial-content" alt="skill"/>
+              <div class="skillbox-hover-content">
+                <p>            mongoDB</p>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+            <ul class="">
+            <h3 class="text-2xl	font-bold mb-12"><i class="fa-solid fa-screwdriver-wrench fa-lg mr-2" ></i>TOOLS</h3>
+              <li class="tool text-xl lg:text-lg md:text-base	pb-2"><i class="fa-solid fa-check fa-sm mr-4" style="color: #FFC700"></i>Git</li>
+              <li class="tool text-xl lg:text-lg md:text-base	pb-2"><i class="fa-solid fa-check fa-sm mr-4" style="color: #FFC700"></i>Github</li>
+              <li class="tool text-xl lg:text-lg md:text-base	pb-2"><i class="fa-solid fa-check fa-sm mr-4" style="color: #FFC700"></i>Command Line</li>
+              <li class="tool text-xl lg:text-lg md:text-base	pb-2"><i class="fa-solid fa-check fa-sm mr-4" style="color: #FFC700"></i>Chrome DevTools</li>
+              <li class="tool text-xl lg:text-lg md:text-base	pb-2"><i class="fa-solid fa-check fa-sm mr-4" style="color: #FFC700"></i>Figma</li>
+              <li class="tool text-xl lg:text-lg md:text-base	pb-2"><i class="fa-solid fa-check fa-sm mr-4" style="color: #FFC700"></i>Postman</li>
+            </ul>
+        </div>
+      </div>
+      </div>
+    </section>
+  
+<div id="works" class="Works py-32 bg-[#F9F9F9]  text-[#130e38]">
+  <div class="work-content lg:w-[80%] w-[90%] m-auto">
+    <h3 class="w-[fit-content] text-5xl pb-4 mb-10 font-bold border-b-4 border-[#FFD700]">Works</h3>
+    <p class="lg:text-lg md:text-base text-left	lg:w-[70%] md:w-[80%] mb-24">Since beginning my journey as a freelance designer over 11 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. </p>
+    <div class="work-container grid lg:grid-cols-3 md:grid-cols-2 lg:gap-6 md:gap-6 gap-8 mb-12">
+    <div class="work-box">
+      <div class="hover-content">
+        <img src="./images/Screenshot (83).png" class="h-[80%]" alt="project"></img>
+        <div class="h-[20%] items-center bg-[#130e38] flex justify-around">
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Visit Site</a> 
+          <a class="hover:text-hover:text-[#f9f9f9] [#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Github</a>
+        </div>
+      </div>
+     <div class="initial-content">
+      <h2 class="laceup-logo mb-[10px]">
+        [LACE<span>UP]</span>
+      </h2>
+      <p class="text-[#130e38]">Accounting and tax services characterized by quality, reliability and trust.</p>
+     </div>
+    </div>
+    <div class="work-box">
+      <div class="hover-content">
+        <img src="./images/Screenshot (81).png" class="h-[80%]" alt="project"></img>
+        <div class="h-[20%] items-center bg-[#130e38] flex justify-around">
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Visit Site</a> 
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Github</a>
+        </div>
+      </div>
+     <div class="initial-content">
+      <h2 class="laceup-logo mb-[10px]">
+        [LACE<span>UP]</span>
+      </h2>
+      <p class="text-[#130e38]">Accounting and tax services characterized by quality, reliability and trust.</p>
+     </div>
+    </div>
+    <div class="work-box">
+      <div class="hover-content">
+        <img src="./images/Screenshot (81).png" class="h-[80%]" alt="project"></img>
+        <div class="h-[20%] items-center bg-[#130e38] flex justify-around">
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Visit Site</a> 
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Github</a>
+        </div>
+      </div>
+     <div class="initial-content">
+      <h2 class="laceup-logo mb-[10px]">
+        [LACE<span>UP]</span>
+      </h2>
+      <p class="text-[#130e38]">Accounting and tax services characterized by quality, reliability and trust.</p>
+     </div>
+    </div>
+    <div class="work-box">
+      <div class="hover-content">
+        <img src="./images/Screenshot (81).png" class="h-[80%]" alt="project"></img>
+        <div class="h-[20%] items-center bg-[#130e38] flex justify-around">
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Visit Site</a> 
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Github</a>
+        </div>
+      </div>
+     <div class="initial-content">
+      <h2 class="laceup-logo mb-[10px]">
+        [LACE<span>UP]</span>
+      </h2>
+      <p class="text-[#130e38]">Accounting and tax services characterized by quality, reliability and trust.</p>
+     </div>
+    </div>
+    <div class="work-box">
+      <div class="hover-content">
+        <img src="./images/Screenshot (81).png" class="h-[80%]" alt="project"></img>
+        <div class="h-[20%] items-center bg-[#130e38] flex justify-around">
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Visit Site</a> 
+          <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Github</a>
+        </div>
+      </div>
+     <div class="initial-content">
+      <h2 class="laceup-logo mb-[10px]">
+        [LACE<span>UP]</span>
+      </h2>
+      <p class="text-[#130e38]">Accounting and tax services characterized by quality, reliability and trust.</p>
+     </div>
+    </div>
+    <div class="work-box"><div class="hover-content">
+      <img src="./images/Screenshot (81).png" class="h-[80%]" alt="project"></img>
+      <div class="h-[20%] items-center bg-[#130e38] flex justify-around">
+        <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Visit Site</a> 
+        <a class="hover:text-[#f9f9f9] cursor-pointer text-[#FFD700] font-bold">Github</a>
+      </div>
+    </div>
+   <div class="initial-content">
+    <h2 class="laceup-logo mb-[10px]">
+      [LACE<span>UP]</span>
+    </h2>
+    <p class="text-[#130e38]">Accounting and tax services characterized by quality, reliability and trust.</p>
+   </div>
+    </div>
+    
+  </div>
+
+</div>
+</div>
+<div id="contact" class="contact lg:h-[50vh] h-[45vh] md:h-[30vh] w-[100%] border-y-2 text-[#130e38]">
+  <div class="contact-content justify-around h-[100%] w-[80%] lg:w-[30%] md:w-[50%] m-auto text-center flex flex-col  m-auto">
+    <i class="mt-12 mb-8 fa-solid fa-inbox fa-bounce fa-2xl" style="color: #130e38;"></i>
+    <h2 class=" text-3xl ">GET IN TOUCH</h2>
+<p>Whether you have an idea for a project or just want to chat, feel free to shoot me an email!</p>
+<a href="mailto:martinsadepoju4@gmail.com"> <button class="second-button m-auto w-[100%] py-4 border-2 border-[#130e38] " >Shoot <i class="ml-4 fa-solid fa-arrow-right-long fa-2xl" style="color: #130e38;"></i></button></a>
+ </div>
+<footer class="lg:h-[30vh] h-[25vh] md:h-[20vh] bg-[#130e38] text-center">
+<div class=" h-[100%] items-center flex justify-around flex-col m-auto lg:w-[50%] md:w-[60%] w-[95%]">
+  <h3 class="logo text-[#f9f9f9]">Martins<span class="logo-span">.</span></h3>
+  <div class="socials flex lg:w-[60%] md:w-[70%] w-[80%]  justify-around">
+    <img class="social" src="./images/linkedin.png"/>
+    <img class="social" src="./images/twitter.png"/>
+    <img class="social" src="./images/github.png"/>
+    <img class="social" src="./images/gmail.png"/>
+    <img class="social" src="./images/instagram.png"/>
+    <img class="social" src="./images/facebook.png"/>
+  </div>
+  <p class="  text-[#FFD700] font-bold ">Designed and Developed by Martins Adepoju 👌🏾2022</p>
+</div>
+</footer>
+    <script src="./index.js" async defer></script>
+  </body>
+</html>
+
