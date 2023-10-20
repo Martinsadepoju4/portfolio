@@ -419,4 +419,7 @@ header {
   .work-box {
     font-size: small;
   }
+  .contact {
+    background-image: url(./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+  }
 }
