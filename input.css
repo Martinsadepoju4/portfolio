@@ -420,6 +420,10 @@ header {
     font-size: small;
   }
   .contact {
-    background-image: url(./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-image: none;
+    background-color: #130e38;
+  }
+  footer {
+    border-top: 3px solid #ffd700;
   }
 }
