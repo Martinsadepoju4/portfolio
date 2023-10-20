@@ -412,8 +412,8 @@ header {
     color: #130e38 !important;
   }
   .skillbox-hover-content {
-    height: 75px;
-    width: 75px;
+    height: 80px;
+    width: 80px;
     font-size: small;
   }
 }
