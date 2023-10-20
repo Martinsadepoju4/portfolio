@@ -416,4 +416,7 @@ header {
     width: 80px;
     font-size: x-small;
   }
+  .work-box {
+    font-size: small;
+  }
 }
