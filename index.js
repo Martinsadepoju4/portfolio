@@ -8,11 +8,42 @@ const skillbox = document.querySelectorAll(".skillbox-hover-content");
 const tool = document.querySelectorAll(".tool");
 const mobileNav = document.querySelector(".mobile-nav");
 const hamburgerMenu = document.querySelector(".fa-bars-staggered");
+const initialContent = document.querySelector(".original-page-content");
+const loader = document.querySelector(".lds-hourglass");
+let isImageReady = false;
 let options = {
   root: null,
   threshold: 0.3,
   rootMargin: "-100px",
 };
+let intervalID;
+intervalID = setInterval(() => {
+  if (isImageReady) {
+    initialContent.style.display = "block";
+    loader.style.display = "none";
+    clearInterval(intervalID);
+  }
+}, 1000);
+
+const loadImage = (image) => {
+  return new Promise((resolve, reject) => {
+    const loadImg = new Image();
+    loadImg.src = image;
+    // wait 2 seconds to simulate loading time
+    loadImg.onload = () =>
+      setTimeout(() => {
+        resolve(image);
+      }, 100);
+
+    loadImg.onerror = (err) => reject(err);
+  });
+};
+
+loadImage(
+  "https://plus.unsplash.com/premium_photo-1683309567673-1a16c6364057?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+)
+  .then(() => (isImageReady = true))
+  .catch((err) => console.log("Failed to load images", err));
 
 const observer = new IntersectionObserver((entries) => {
   if (entries[0].isIntersecting) {
