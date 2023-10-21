@@ -293,6 +293,12 @@ header {
   overflow: hidden;
   cursor: pointer;
 }
+.second-button {
+  box-shadow: 0px 5px 5px 0 rgba(23, 0, 0, 0.2);
+}
+.second-button:active {
+  box-shadow: 0px 2px 2px 0 rgba(23, 0, 0, 0.2);
+}
 .my-button::before {
   content: "";
   position: absolute;
