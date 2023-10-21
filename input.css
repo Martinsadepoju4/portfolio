@@ -181,14 +181,9 @@ header {
 .nav-li-on-scroll {
   color: #f9f9f9 !important;
 }
-.nav-li-in-dark-area {
-  color: #f9f9f9 !important;
-}
+
 .logo-on-scroll {
   font-size: 1.5em !important;
-  color: #f9f9f9 !important;
-}
-.logo-in-dark-area {
   color: #f9f9f9 !important;
 }
 .nav-button-on-scroll {
@@ -200,13 +195,13 @@ header {
 }
 
 .logo {
-  font-family: "clash display";
+  font-family: "Righteous", sans-serif;
   font-weight: bold;
   font-size: 1.7em;
-  color: #ffd700;
+  color: #130e38;
 }
 .logo-span {
-  color: #130e38;
+  color: #ffd700;
   padding-left: 7px;
 }
 .skillbox-hover-content {
@@ -270,8 +265,8 @@ header {
   display: block;
   animation: grow 300ms ease 0s 1 normal forwards;
 }
-.social {
-  width: 20px;
+.social:hover {
+  color: #f9f9f9 !important;
 }
 .skills {
   padding: 150px none;
